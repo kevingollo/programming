@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Comparativo: React vs JSX</title>
+</head>
+
+<body>
+    <div class="cuadro">
+        <h1>Cuadro Comparativo entre React y JSX</h1>
+        <table>
+            <tr>
+                <th>Característica</th>
+                <th>React</th>
+                <th>JSX</th>
+            </tr>
+            <tr>
+                <td>Sintaxis</td>
+                <td>Librería para construir interfaces de usuario</td>
+                <td>Extensión de JavaScript que permite escribir código similar a XML/HTML para definir elementos de
+                    React</td>
+            </tr>
+            <tr>
+                <td>Renderizado</td>
+                <td>Utiliza el método render() para renderizar elementos en el DOM</td>
+                <td>Se transforma a llamadas de funciones JavaScript y se renderiza mediante React</td>
+            </tr>
+            <tr>
+                <td>Componentes</td>
+                <td>Permite la creación de componentes reutilizables</td>
+                <td>Los componentes JSX son bloques de construcción fundamentales en React</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div class="div">
+
+        <h1 class="h1">¿Qué son clases en React?</h1>
+
+    </div>
+    <div class="container">
+        <div class="content">
+            <p>En React, los componentes son las unidades fundamentales para construir interfaces de usuario. En
+                versiones anteriores de React, se utilizaban principalmente clases para definir componentes. Estos
+                componentes de clase extendían la clase React.Component y permitían gestionar el estado y el ciclo de
+                vida de un componente. Sin embargo, con la evolución de React, se introdujeron los "componentes
+                funcionales" y los "hooks". Los componentes funcionales son funciones de JavaScript que pueden aceptar
+                propiedades y devolver elementos React. Los hooks, como useState y useEffect, permiten a los componentes
+                funcionales gestionar el estado y realizar efectos secundarios, lo que antes solo era posible con las
+                clases.
+            </p>
+            <div class="imagen">
+                <img src="data:image/jpeg;base64,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"
+                    alt="">
+            </div>
+        </div>
+
+    </div>
+    <div class="div">
+        <h1 class="h1">Principales eventos de React</h1>
+
+    </div>
+    <div class="container">
+        <div class="content">
+            <p>
+            <h3>onClick:</h3>
+            Este evento se activa cuando se hace clic en un elemento. Es comúnmente utilizado para manejar acciones de
+            usuario como hacer clic en un botón.
+
+            <h3>onChange:</h3>
+            <br>
+            Se activa cuando el valor de un elemento de formulario, como un input o un select, cambia. Este evento es
+            valioso para rastrear y responder a los cambios en los datos de entrada del usuario.
+
+            <h3>onSubmit:</h3>
+            <br>
+            Este evento se dispara cuando se envía un formulario. Es útil para realizar acciones como la validación de
+            formularios y el envío de datos.
+
+            <h3>onMouseOver y onMouseOut:</h3>
+            <br>
+            onMouseOver se activa cuando el puntero del ratón se coloca sobre un elemento.
+            onMouseOut se activa cuando el puntero del ratón sale de un elemento. Estos eventos son útiles para efectos
+            visuales o información adicional al pasar el ratón sobre un elemento.
+
+            <h3>onKeyPress:</h3>
+            Se activa cuando una tecla se presiona mientras un elemento tiene el foco. Puede ser utilizado para capturar
+            y manejar eventos de teclado.
+
+            <h3>onFocus y onBlur:</h3>
+            onFocus se activa cuando un elemento obtiene el foco.
+            onBlur se activa cuando un elemento pierde el foco. Estos eventos son útiles para realizar acciones cuando
+            un usuario interactúa con o deja un elemento.
+
+            Estos eventos permiten a los desarrolladores controlar la interactividad en una aplicación React y responder
+            a las acciones del usuario sin tener que proporcionar código específico.
+
+            </p>
+
+        </div>
+    </div>
+
+    <div class="cintainer">
+        <div class="container1">
+            <h1>mapa conceptual</h1>
+        </div>
+        <div class="container2">
+            <img src="captura.png" alt="imagen mapa conceptual">
+        </div>
+    </div>
+
+</body>
+
+</html>
